@@ -1,0 +1,24 @@
+{
+    "name": "yarn-with-typescript-eslint",
+    "version": "1.0.0",
+    "description": "Yarn template with typescript with eslint",
+    "main": "dist/index.js",
+    "repository": {
+        "url": "https://github.com/vilatyshev/yarn-with-typescript-eslint",
+        "type": "git"
+    },
+    "author": "vi.latyshev",
+    "license": "MIT",
+    "scripts": {
+        "start": "tsc && node dist/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.25",
+        "@typescript-eslint/eslint-plugin": "^4.14.2",
+        "@typescript-eslint/parser": "^4.14.2",
+        "eslint": "^7.19.0",
+        "eslint-config-airbnb-typescript": "^12.3.1",
+        "eslint-plugin-import": "^2.22.1",
+        "typescript": "^4.1.3"
+    }
+}
