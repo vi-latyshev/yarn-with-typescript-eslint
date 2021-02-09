@@ -31,6 +31,7 @@ module.exports = {
                 props: false,
             },
         ],
+        radix: ['error', 'as-needed'],
         // import/...
         'import/prefer-default-export': 'off',
         // not supported 'import type'
